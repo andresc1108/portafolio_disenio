@@ -33,6 +33,7 @@ import {
   Music,
   Activity
 } from 'lucide-react';
+import fotoMia from '../assets/foto.jpeg';
 
 type Language = 'es' | 'en' | 'pt' | 'fr';
 
@@ -929,9 +930,11 @@ function AboutSection() {
             <div className={`aspect-square ${theme === 'dark' ? 'bg-gradient-to-br from-red-900 via-gray-900 to-black' : 'bg-gradient-to-br from-red-300 via-gray-300 to-gray-100'} rounded-2xl overflow-hidden border-2 ${theme === 'dark' ? 'border-gray-800' : 'border-gray-200'} group-hover:border-blue-500 transition-all duration-300`}>
               {/* AQUÍ PUEDES CAMBIAR TU IMAGEN DE PERFIL */}
               {/* Reemplaza el div de abajo con: <img src="URL_DE_TU_IMAGEN" alt="Andrés David Criollo" className="w-full h-full object-cover" /> */}
-              <div className="w-full h-full flex items-center justify-center">
-                <Code2 size={120} className={`${theme === 'dark' ? 'text-white/20' : 'text-black/20'}`} />
-              </div>
+              <img 
+              src={fotoMia}
+               alt="Andrés David Criollo" 
+               className="w-full h-full object-cover" 
+/>
             </div>
             <motion.div
               whileHover={{ scale: 1.05 }}
