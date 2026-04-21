@@ -272,14 +272,14 @@ const translations = {
           name: 'EMOIA',
           description: 'Web platform that analyzes user behavior through interaction patterns to detect possible cases of anxiety or depression, facilitating early intervention.',
           tags: ['REACT', 'NODE.JS', 'MONGODB', 'PYTHON'],
-          link: '#'
+          link: 'https://github.com/Alcstr/proyectos-estructuras'
         },
         {
           number: '02',
           name: 'ANDES_SOUND',
           description: 'Music player developed with modern web technologies. Allows managing and playing playlists with an intuitive and responsive interface.',
           tags: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'],
-          link: '#'
+          link: 'https://github.com/andresc1108/andes_sound.git'
         }
       ]
     },
@@ -421,14 +421,14 @@ const translations = {
           name: 'EMOIA',
           description: 'Plataforma web que analisa o comportamento dos usuários através de padrões de interação para detectar possíveis casos de ansiedade ou depressão, facilitando uma intervenção precoce.',
           tags: ['REACT', 'NODE.JS', 'MONGODB', 'PYTHON'],
-          link: '#'
+          link: 'https://github.com/Alcstr/proyectos-estructuras'
         },
         {
           number: '02',
           name: 'ANDES_SOUND',
           description: 'Reprodutor de música desenvolvido com tecnologias web modernas. Permite gerenciar e reproduzir listas de reprodução com interface intuitiva e responsiva.',
           tags: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'],
-          link: '#'
+          link: 'https://github.com/andresc1108/andes_sound.git'
         }
       ]
     },
@@ -570,14 +570,14 @@ const translations = {
           name: 'EMOIA',
           description: 'Plateforme web qui analyse le comportement des utilisateurs via des modèles d\'interaction pour détecter d\'éventuels cas d\'anxiété ou de dépression, facilitant une intervention précoce.',
           tags: ['REACT', 'NODE.JS', 'MONGODB', 'PYTHON'],
-          link: '#'
+          link: 'https://github.com/Alcstr/proyectos-estructuras'
         },
         {
           number: '02',
           name: 'ANDES_SOUND',
           description: 'Lecteur de musique développé avec des technologies web modernes. Permet de gérer et de lire des listes de lecture avec une interface intuitive et responsive.',
           tags: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'],
-          link: '#'
+          link: 'https://github.com/andresc1108/andes_sound.git'
         }
       ]
     },
