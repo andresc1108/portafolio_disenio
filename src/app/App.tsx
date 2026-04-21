@@ -154,10 +154,10 @@ const translations = {
           years: '2024 — Presente',
           degree: 'Ingeniería de Software',
           institution: 'Universidad Cooperativa de Colombia',
-          location: '6to Semestre'
+          location: '5to Semestre'
         },
         {
-          years: '2022 — 2024',
+          years: '2023 — 2024',
           degree: 'Técnico en Asistencia y Soporte de la Información',
           institution: 'Instituto INESUR'
         },
@@ -175,7 +175,7 @@ const translations = {
         {
           quote: 'Desarrolló un excelente reproductor de música, fácil de usar y intuitivo!',
           name: 'Gabriela Cuastumal',
-          role: 'Usuario activo'
+          role: 'Usuario activo-andes sound'
         },
         {
           quote: 'La mejor app de música que he usado. Interfaz hermosa y fluida, me encanta la experiencia de usuario!',
@@ -185,7 +185,7 @@ const translations = {
         {
           quote: 'Su app ha ayudado a la mejora con mis pacientes, gracias!!',
           name: 'Ruth Rosero',
-          role: 'Psicóloga/Docente activo'
+          role: 'Psicóloga/usuaria activa-emoia'
         }
       ]
     },
@@ -958,7 +958,7 @@ function AboutSection() {
             <div className="grid grid-cols-3 gap-6">
               {[
                 { value: '2+', label: t.about.yearsLabel, icon: Zap },
-                { value: '25+', label: t.about.projectsLabel, icon: Target },
+                { value: '10+', label: t.about.projectsLabel, icon: Target },
                 { value: '10+', label: t.about.technologiesLabel, icon: Award }
               ].map((stat, index) => (
                 <motion.div
@@ -1047,18 +1047,18 @@ function SkillsSection() {
   const t = translations[language];
 
   const skills = [
-    { name: 'HTML', icon: Code2, level: 4 },
-    { name: 'CSS', icon: Palette, level: 4 },
-    { name: 'Python', icon: Code2, level: 3 },
-    { name: 'Java', icon: Code2, level: 3 },
-    { name: 'React', icon: Code2, level: 4 },
-    { name: 'Node.js', icon: Database, level: 4 },
-    { name: 'MongoDB', icon: Database, level: 3 },
-    { name: 'Figma', icon: Palette, level: 4 },
-    { name: 'Git', icon: Code2, level: 4 },
-    { name: 'GitHub', icon: Github, level: 3 },
-    { name: 'Liderazgo', icon: Users, level: 4 },
-    { name: 'Soporte TI', icon: Wrench, level: 4 }
+    { name: 'HTML', icon: Code2, level: 5 },
+    { name: 'CSS', icon: Palette, level: 5 },
+    { name: 'Python', icon: Code2, level: 5 },
+    { name: 'Java', icon: Code2, level: 5 },
+    { name: 'React', icon: Code2, level: 5 },
+    { name: 'Node.js', icon: Database, level: 5 },
+    { name: 'MongoDB', icon: Database, level: 5 },
+    { name: 'Figma', icon: Palette, level: 5 },
+    { name: 'Git', icon: Code2, level: 5 },
+    { name: 'GitHub', icon: Github, level: 5 },
+    { name: 'Liderazgo', icon: Users, level: 5 },
+    { name: 'Soporte TI', icon: Wrench, level: 5 }
   ];
 
   return (
