@@ -123,14 +123,14 @@ const translations = {
           name: 'EMOIA',
           description: 'Plataforma web que analiza el comportamiento de los usuarios mediante patrones de interacción para detectar posibles casos de ansiedad o depresión, facilitando una intervención temprana.',
           tags: ['REACT', 'NODE.JS', 'MONGODB', 'PYTHON'],
-          link: '#'
+          link: 'https://github.com/Alcstr/proyectos-estructuras'
         },
         {
           number: '02',
           name: 'ANDES_SOUND',
           description: 'Reproductor de música desarrollado con tecnologías web modernas. Permite gestionar y reproducir listas de reproducción con una interfaz intuitiva y responsiva.',
           tags: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'],
-          link: '#'
+          link: 'https://github.com/andresc1108/andes_sound'
         }
       ]
     },
