@@ -1417,7 +1417,7 @@ function ContactSection() {
 
   const contactInfo = [
     { label: t.contact.email, value: 'criolloandres2003@gmail.com', icon: Mail, link: 'mailto:criolloandres2003@gmail.com' },
-    { label: t.contact.linkedin, value: 'Andrés David Criollo', icon: Linkedin, link: 'https:www.linkedin.com/in/andrés-david-criollo-rosero-84a452337' },
+    { label: t.contact.linkedin, value: 'Andrés David Criollo', icon: Linkedin, link: 'https://www.linkedin.com/in/andr%C3%A9s-david-criollo-rosero-84a452337' },
     { label: t.contact.phone, value: '+57 314 590 0862', icon: Phone, link: 'tel:+573145900862' },
     { label: t.contact.github, value: 'andresc1108', icon: Github, link: 'https://github.com/andresc1108' }
   ];
