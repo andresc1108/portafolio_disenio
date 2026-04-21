@@ -303,10 +303,10 @@ const translations = {
           years: '2024 — Present',
           degree: 'Software Engineering',
           institution: 'Universidad Cooperativa de Colombia',
-          location: '6th Semester'
+          location: '5th Semester'
         },
         {
-          years: '2022 — 2024',
+          years: '2023 — 2024',
           degree: 'Technical Support and Information Systems',
           institution: 'INESUR Institute'
         },
@@ -452,7 +452,7 @@ const translations = {
           years: '2024 — Presente',
           degree: 'Engenharia de Software',
           institution: 'Universidad Cooperativa de Colombia',
-          location: '6º Semestre'
+          location: '5º Semestre'
         },
         {
           years: '2022 — 2024',
@@ -601,7 +601,7 @@ const translations = {
           years: '2024 — Présent',
           degree: 'Génie Logiciel',
           institution: 'Universidad Cooperativa de Colombia',
-          location: '6ème Semestre'
+          location: '5ème Semestre'
         },
         {
           years: '2022 — 2024',
