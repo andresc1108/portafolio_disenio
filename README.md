@@ -1,11 +1,26 @@
+# Portafolio — Andrés David Criollo
 
-  # Portafolio interactivo responsive
+🌐 **[portafolio-disenio.vercel.app](https://portafolio-disenio.vercel.app/)**
 
-  This is a code bundle for Portafolio interactivo responsive. The original project is available at https://www.figma.com/design/219x7jYt54of3ihc1HrXkt/Portafolio-interactivo-responsive.
+Portafolio web personal desarrollado con React, TypeScript y Vite. Incluye modo oscuro/claro, soporte multilenguaje (ES, EN, PT, FR) y animaciones con Framer Motion.
 
-  ## Running the code
+## Tecnologías
 
-  Run `npm i` to install the dependencies.
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-  Run `npm run dev` to start the development server.
-  
+## Correr localmente
+
+```bash
+git clone https://github.com/andresc1108/portafolio_disenio.git
+cd portafolio_disenio
+npm install
+npm run dev
+```
+
+## Autor
+
+**Andrés David Criollo** — Pasto, Colombia
