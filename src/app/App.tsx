@@ -1333,6 +1333,8 @@ function ProjectsSection() {
 
                   <motion.a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ x: 5 }}
                     className="text-sm text-blue-500 flex items-center gap-2 group/link"
                     style={{ fontWeight: 700 }}
@@ -1724,6 +1726,8 @@ function ContactSection() {
                 <div className={`text-xs ${theme === 'dark' ? 'text-gray-600' : 'text-gray-500'} mb-2`} style={{ fontWeight: 800 }}>{item.label}</div>
                 <motion.a
                   href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ x: 5 }}
                   className="flex items-center gap-3 text-lg hover:text-blue-500 transition-colors"
                   style={{ fontWeight: 700 }}
