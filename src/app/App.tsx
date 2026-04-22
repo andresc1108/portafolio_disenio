@@ -25,7 +25,6 @@ import {
   Briefcase,
   MapPin,
   Calendar,
-  Star,
   TrendingUp,
   ChevronDown,
   Menu,
@@ -34,6 +33,7 @@ import {
   Activity
 } from 'lucide-react';
 import fotoMia from '../assets/foto.jpeg';
+import cvFile from '../assets/cv andres criollo.pdf';
 
 type Language = 'es' | 'en' | 'pt' | 'fr';
 
@@ -193,6 +193,19 @@ const translations = {
       title: 'CONTACTO',
       subtitle: '¿HABLAMOS?',
       description: 'Actualmente en búsqueda de mi primera experiencia profesional. Abierto a prácticas, proyectos freelance y colaboraciones.',
+      form: {
+        name: 'Nombre',
+        company: 'Empresa',
+        phone: 'Teléfono',
+        email: 'Correo',
+        subject: 'Asunto',
+        message: 'Mensaje',
+        send: 'Enviar',
+        sending: 'Enviando...',
+        requiredError: 'Por favor completa nombre, correo, teléfono y mensaje.',
+        prefillSubject: 'Deseo contactarte',
+        prefillMessage: 'Deseo contactarte. Estoy interesado en contactarte sobre oportunidades relacionadas con Ingeniería de Software.'
+      },
       email: 'EMAIL',
       linkedin: 'LINKEDIN',
       phone: 'TELÉFONO',
@@ -322,19 +335,19 @@ const translations = {
       title: 'TESTIMONIALS',
       items: [
         {
-          quote: 'Developed an excellent music player, easy to use and intuitive!',
+          quote: 'Desarrolló un excelente reproductor de música, fácil de usar y intuitivo!',
           name: 'Gabriela Cuastumal',
-          role: 'Active user'
+          role: 'Usuario activo-andes sound'
         },
         {
-          quote: 'The best music app I\'ve ever used. Beautiful and fluid interface, I love the user experience!',
+          quote: 'La mejor app de música que he usado. Interfaz hermosa y fluida, me encanta la experiencia de usuario!',
           name: 'Carlos Martínez',
-          role: 'Professional musician'
+          role: 'Músico profesional'
         },
         {
-          quote: 'Your app has helped improve my patients, thanks!!',
+          quote: 'Su app ha ayudado a la mejora con mis pacientes, gracias!!',
           name: 'Ruth Rosero',
-          role: 'Psychologist/Active teacher'
+          role: 'Psicóloga/usuaria activa-emoia'
         }
       ]
     },
@@ -342,6 +355,19 @@ const translations = {
       title: 'CONTACT',
       subtitle: 'LET\'S TALK?',
       description: 'Currently looking for my first professional experience. Open to internships, freelance projects and collaborations.',
+      form: {
+        name: 'Name',
+        company: 'Company',
+        phone: 'Phone',
+        email: 'Email',
+        subject: 'Subject',
+        message: 'Message',
+        send: 'Send',
+        sending: 'Sending...',
+        requiredError: 'Please fill name, email, phone and message.',
+        prefillSubject: 'I want to contact you',
+        prefillMessage: 'I want to contact you. I am interested in opportunities related to Software Engineering.'
+      },
       email: 'EMAIL',
       linkedin: 'LINKEDIN',
       phone: 'PHONE',
@@ -471,19 +497,19 @@ const translations = {
       title: 'DEPOIMENTOS',
       items: [
         {
-          quote: 'Desenvolveu um excelente reprodutor de música, fácil de usar e intuitivo!',
+          quote: 'Desarrolló un excelente reproductor de música, fácil de usar y intuitivo!',
           name: 'Gabriela Cuastumal',
-          role: 'Usuário ativo'
+          role: 'Usuario activo-andes sound'
         },
         {
-          quote: 'O melhor aplicativo de música que já usei. Interface linda e fluida, adoro a experiência do usuário!',
+          quote: 'La mejor app de música que he usado. Interfaz hermosa y fluida, me encanta la experiencia de usuario!',
           name: 'Carlos Martínez',
-          role: 'Músico profissional'
+          role: 'Músico profesional'
         },
         {
-          quote: 'Seu aplicativo ajudou a melhorar meus pacientes, obrigado!!',
+          quote: 'Su app ha ayudado a la mejora con mis pacientes, gracias!!',
           name: 'Ruth Rosero',
-          role: 'Psicóloga/Docente ativa'
+          role: 'Psicóloga/usuaria activa-emoia'
         }
       ]
     },
@@ -491,6 +517,19 @@ const translations = {
       title: 'CONTATO',
       subtitle: 'VAMOS CONVERSAR?',
       description: 'Atualmente em busca da minha primeira experiência profissional. Aberto a estágios, projetos freelance e colaborações.',
+      form: {
+        name: 'Nome',
+        company: 'Empresa',
+        phone: 'Telefone',
+        email: 'Email',
+        subject: 'Assunto',
+        message: 'Mensagem',
+        send: 'Enviar',
+        sending: 'Enviando...',
+        requiredError: 'Por favor preencha nome, email, telefone e mensagem.',
+        prefillSubject: 'Desejo contatar você',
+        prefillMessage: 'Desejo contatar você. Estou interessado em oportunidades relacionadas à Engenharia de Software.'
+      },
       email: 'EMAIL',
       linkedin: 'LINKEDIN',
       phone: 'TELEFONE',
@@ -620,19 +659,19 @@ const translations = {
       title: 'TÉMOIGNAGES',
       items: [
         {
-          quote: 'A développé un excellent lecteur de musique, facile à utiliser et intuitif!',
+          quote: 'Desarrolló un excelente reproductor de música, fácil de usar y intuitivo!',
           name: 'Gabriela Cuastumal',
-          role: 'Utilisateur actif'
+          role: 'Usuario activo-andes sound'
         },
         {
-          quote: 'La meilleure application musicale que j\'ai jamais utilisée. Interface magnifique et fluide, j\'adore l\'expérience utilisateur!',
+          quote: 'La mejor app de música que he usado. Interfaz hermosa y fluida, me encanta la experiencia de usuario!',
           name: 'Carlos Martínez',
-          role: 'Musicien professionnel'
+          role: 'Músico profesional'
         },
         {
-          quote: 'Votre application a aidé à améliorer mes patients, merci!!',
+          quote: 'Su app ha ayudado a la mejora con mis pacientes, gracias!!',
           name: 'Ruth Rosero',
-          role: 'Psychologue/Enseignante active'
+          role: 'Psicóloga/usuaria activa-emoia'
         }
       ]
     },
@@ -640,6 +679,19 @@ const translations = {
       title: 'CONTACT',
       subtitle: 'ON PARLE?',
       description: 'Actuellement à la recherche de ma première expérience professionnelle. Ouvert aux stages, projets freelance et collaborations.',
+      form: {
+        name: 'Nom',
+        company: 'Entreprise',
+        phone: 'Téléphone',
+        email: 'Email',
+        subject: 'Sujet',
+        message: 'Message',
+        send: 'Envoyer',
+        sending: 'Envoi...',
+        requiredError: 'Veuillez renseigner nom, email, téléphone et message.',
+        prefillSubject: 'Je souhaite vous contacter',
+        prefillMessage: 'Je souhaite vous contacter. Je suis intéressé par des opportunités liées au Génie Logiciel.'
+      },
       email: 'EMAIL',
       linkedin: 'LINKEDIN',
       phone: 'TÉLÉPHONE',
@@ -878,7 +930,7 @@ function HeroSection() {
               href="#contact"
               whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(59, 130, 246, 0.6)' }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center gap-2"
+              className="w-full md:w-auto px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center justify-center gap-2"
               style={{ fontWeight: 700 }}
             >
               {t.hero.contact}
@@ -889,7 +941,7 @@ function HeroSection() {
               href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className={`px-8 py-3 ${theme === 'dark' ? 'bg-white/10 hover:bg-white/20' : 'bg-black/10 hover:bg-black/20'} rounded-lg transition-colors`}
+              className={`w-full md:w-auto px-8 py-3 ${theme === 'dark' ? 'bg-white/10 hover:bg-white/20' : 'bg-black/10 hover:bg-black/20'} rounded-lg transition-colors flex items-center justify-center`}
               style={{ fontWeight: 700 }}
             >
               {t.hero.projects}
@@ -958,8 +1010,8 @@ function AboutSection() {
             <div className="grid grid-cols-3 gap-6">
               {[
                 { value: '2+', label: t.about.yearsLabel, icon: Zap },
-                { value: '10+', label: t.about.projectsLabel, icon: Target },
-                { value: '10+', label: t.about.technologiesLabel, icon: Award }
+                { value: '2+', label: t.about.projectsLabel, icon: Target },
+                { value: '8+', label: t.about.technologiesLabel, icon: Award }
               ].map((stat, index) => (
                 <motion.div
                   key={index}
@@ -1381,25 +1433,25 @@ function TestimonialsSection() {
           {t.testimonials.items.map((testimonial, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 16, scale: 0.995 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              whileHover={{ y: -8, scale: 1.02 }}
+              transition={{ delay: index * 0.08, type: 'spring', stiffness: 180, damping: 16 }}
+              whileHover={{ y: -6, scale: 1.02, transition: { duration: 0.12 } }}
+              whileTap={{ scale: 0.995 }}
               className={`p-6 ${theme === 'dark' ? 'bg-white/5 hover:bg-white/10' : 'bg-black/5 hover:bg-black/10'} rounded-xl border ${theme === 'dark' ? 'border-gray-800 hover:border-blue-500/50' : 'border-gray-200 hover:border-blue-500'} transition-all group`}
             >
-              <Quote size={28} className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" />
-              <p className={`text-sm mb-6 italic border-l-2 border-dashed ${theme === 'dark' ? 'border-gray-700' : 'border-gray-300'} pl-4`} style={{ fontWeight: 500, lineHeight: 1.7 }}>
+              <motion.div initial={{ scale: 0.98 }} whileInView={{ scale: 1 }} className="mb-4">
+                <Quote size={28} className="text-blue-500 transition-transform" />
+              </motion.div>
+
+              <p className={`text-sm mb-6 italic border-l-2 border-dashed ${theme === 'dark' ? 'border-gray-700' : 'border-gray-300'} pl-4`} style={{ fontWeight: 500, lineHeight: 1.6 }}>
                 {testimonial.quote}
               </p>
-              <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 rounded-full ${theme === 'dark' ? 'bg-blue-500/20' : 'bg-blue-500/30'} flex items-center justify-center`}>
-                  <Star size={20} className="text-blue-500" />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 700 }}>{testimonial.name}</div>
-                  <div className={`text-xs ${theme === 'dark' ? 'text-gray-500' : 'text-gray-600'}`} style={{ fontWeight: 600 }}>{testimonial.role}</div>
-                </div>
+
+              <div className="mt-3">
+                <motion.div whileHover={{ scale: 1.02 }} style={{ fontWeight: 700 }}>{testimonial.name}</motion.div>
+                <div className={`text-xs ${theme === 'dark' ? 'text-gray-500' : 'text-gray-600'}`} style={{ fontWeight: 600 }}>{testimonial.role}</div>
               </div>
             </motion.div>
           ))}
@@ -1410,15 +1462,187 @@ function TestimonialsSection() {
 }
 
 // Contact Section
+function InfoCard({ onPrefill }: { onPrefill: (data: Partial<Record<string, string>>) => void }) {
+  const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+
+  const handleDownload = (e: any) => {
+    e.preventDefault();
+    // Prefill form with subject & message localized
+    onPrefill({ subject: t.contact.form.prefillSubject, message: t.contact.form.prefillMessage });
+
+    // Try to fetch the PDF first to provide a nicer error if missing
+    (async () => {
+      try {
+        const res = await fetch(cvFile as unknown as string);
+        if (!res.ok) throw new Error('PDF not available');
+        const blob = await res.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Andres_CV.pdf';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+      } catch (err) {
+        // graceful fallback: open in new tab (may show built-in PDF error) or show alert
+        try {
+          window.open(cvFile as unknown as string, '_blank');
+        } catch (e) {
+          // eslint-disable-next-line no-alert
+          alert('No se pudo descargar el CV. Por favor reemplaza src/assets/Andres_CV.pdf con tu archivo PDF.');
+        }
+      }
+    })();
+  };
+
+  const handlePrefill = (e: any) => {
+    e.preventDefault();
+    onPrefill({ subject: t.contact.form.prefillSubject, message: t.contact.form.prefillMessage });
+    // Scroll to form and focus
+    setTimeout(() => {
+      const el = document.querySelector<HTMLInputElement>('input[name="name"]');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.focus();
+      }
+    }, 100);
+  };
+
+  return (
+    <div className={`p-6 rounded-2xl ${theme === 'dark' ? 'bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/20' : 'bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-blue-500/30'}`}>
+      <div className="flex items-start gap-4">
+        <Activity size={32} className="text-blue-500 mt-0.5 flex-shrink-0" />
+        <div className="w-full">
+          <h4 className="text-base font-bold mb-2">{language === 'es' ? 'Estudiante de Ingeniería de Software' : language === 'en' ? 'Software Engineering Student' : language === 'pt' ? 'Estudante de Engenharia de Software' : 'Étudiant en Génie Logiciel'}</h4>
+          <p className={theme === 'dark' ? 'text-sm text-gray-300' : 'text-sm text-gray-700'} style={{ fontWeight: 500, lineHeight: 1.6 }}>{language === 'es' ? 'En búsqueda de mi primera experiencia profesional. Interesado en oportunidades relacionadas con desarrollo de software, prácticas y proyectos que me permitan crecer en el área tecnológica.' : language === 'en' ? 'Looking for my first professional experience. Interested in software development opportunities, internships, and projects that allow me to grow in the tech field.' : language === 'pt' ? 'Em busca da minha primeira experiência profissional. Interessado em oportunidades de desenvolvimento de software, estágios e projetos que me permitam crescer na área tecnológica.' : 'À la recherche de ma première expérience professionnelle. Intéressé par les opportunités de développement logiciel, les stages et les projets me permettant de progresser dans le domaine technologique.'}</p>
+
+          <div className="mt-4 flex gap-2">
+            <button onClick={handlePrefill} className="px-3 py-2 bg-blue-500 text-white rounded-full text-xs font-bold hover:bg-blue-600 transition-colors">{language === 'es' ? 'Contáctame' : language === 'en' ? 'Contact me' : language === 'pt' ? 'Contato' : 'Contactez-moi'}</button>
+            <button onClick={handleDownload} className="px-3 py-2 border border-blue-500 text-blue-500 rounded-full text-xs font-bold hover:bg-blue-500/10 transition-colors">{language === 'es' ? 'Descargar CV' : language === 'en' ? 'Download CV' : language === 'pt' ? 'Baixar CV' : 'Télécharger CV'}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ContactForm({ form, setForm }: { form: any; setForm: any }) {
+  const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+  const [sending, setSending] = useState(false);
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setForm((prev: any) => ({ ...prev, [name]: value }));
+  };
+
+  const submitViaForm = (data: Record<string, string>) => {
+    const f = document.createElement('form');
+    f.action = 'https://formsubmit.co/criolloandres2003@gmail.com';
+    f.method = 'POST';
+    f.target = '_blank';
+
+    Object.entries(data).forEach(([k, v]) => {
+      const i = document.createElement('input');
+      i.type = 'hidden';
+      i.name = k;
+      i.value = v;
+      f.appendChild(i);
+    });
+
+    const subj = document.createElement('input');
+    subj.type = 'hidden';
+    subj.name = '_subject';
+    subj.value = `Nuevo mensaje desde portfolio: ${data.subject || 'Contacto'}`;
+    f.appendChild(subj);
+
+    document.body.appendChild(f);
+    f.submit();
+    f.remove();
+  };
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    setSending(true);
+    setStatus('');
+
+    // Validation: require name, email, phone, message
+    if (!form.name || !form.email || !form.phone || !form.message) {
+      setStatus(t.contact.form.requiredError);
+      setSending(false);
+      return;
+    }
+
+    try {
+      submitViaForm({
+        name: form.name,
+        company: form.company,
+        phone: form.phone,
+        email: form.email,
+        subject: form.subject,
+        message: form.message
+      });
+
+      setStatus(language === 'es' ? 'Enviado. Gracias — revisa tu correo (o la pestaña nueva).' : t.contact.form.send + ' OK');
+      setForm({ name: '', company: '', phone: '', email: '', subject: '', message: '' });
+    } catch (err) {
+      setStatus(language === 'es' ? 'Ocurrió un error al enviar. Intenta de nuevo.' : 'Error sending message.');
+    } finally {
+      setSending(false);
+    }
+  };
+
+  return (
+    <div className={`p-6 rounded-2xl ${theme === 'dark' ? 'bg-white/5 border border-blue-500/20' : 'bg-white border border-gray-200'}`}>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input name="name" value={form.name} onChange={handleChange} placeholder={t.contact.form.name} className={`w-full px-4 py-3 rounded-full border ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+          <input name="company" value={form.company} onChange={handleChange} placeholder={t.contact.form.company} className={`w-full px-4 py-3 rounded-full border ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input name="phone" value={form.phone} onChange={handleChange} placeholder={t.contact.form.phone} className={`w-full px-4 py-3 rounded-full border ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+          <input name="email" value={form.email} onChange={handleChange} placeholder={t.contact.form.email} className={`w-full px-4 py-3 rounded-full border ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+        </div>
+
+        <input name="subject" value={form.subject} onChange={handleChange} placeholder={t.contact.form.subject} className={`w-full px-4 py-3 rounded-full border ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+
+        <textarea name="message" value={form.message} onChange={handleChange} placeholder={t.contact.form.message} rows={4} className={`w-full px-4 py-3 rounded-xl border resize-none ${theme === 'dark' ? 'bg-gray-900 border-gray-800 text-white' : 'bg-gray-50 border-gray-200 text-gray-900'}`} />
+
+        <div>
+          <button type="submit" disabled={sending} className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-full font-bold transition-colors">
+            {sending ? t.contact.form.sending : t.contact.form.send}
+          </button>
+          {status && <div className="mt-3 text-sm text-gray-300">{status}</div>}
+        </div>
+      </form>
+    </div>
+  );
+}
 function ContactSection() {
   const { theme } = useContext(ThemeContext);
   const { language } = useContext(LanguageContext);
   const t = translations[language];
 
+  // Lifted form state so InfoCard can prefill it
+  const [form, setForm] = useState({ name: '', company: '', phone: '', email: '', subject: '', message: '' });
+
+  const prefillForm = (data: Partial<Record<string, string>>) => {
+    setForm(prev => ({ ...prev, ...data }));
+    // focus first input
+    setTimeout(() => {
+      const el = document.querySelector<HTMLInputElement>('input[name="name"]');
+      if (el) el.focus();
+    }, 50);
+  };
+
   const contactInfo = [
-    { label: t.contact.email, value: 'criolloandres2003@gmail.com', icon: Mail, link: 'mailto:criolloandres2003@gmail.com' },
     { label: t.contact.linkedin, value: 'Andrés David Criollo', icon: Linkedin, link: 'https://www.linkedin.com/in/andr%C3%A9s-david-criollo-rosero-84a452337' },
-    { label: t.contact.phone, value: '+57 314 590 0862', icon: Phone, link: 'tel:+573145900862' },
     { label: t.contact.github, value: 'andresc1108', icon: Github, link: 'https://github.com/andresc1108' }
   ];
 
@@ -1468,15 +1692,12 @@ function ContactSection() {
                 </motion.a>
               </motion.div>
             ))}
+
+            <InfoCard onPrefill={prefillForm} />
           </div>
 
-          <div className="flex items-center">
-            <div className={`p-8 rounded-xl ${theme === 'dark' ? 'bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/20' : 'bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-blue-500/30'}`}>
-              <Activity size={40} className="text-blue-500 mb-4" />
-              <p className={theme === 'dark' ? 'text-gray-400' : 'text-gray-600'} style={{ fontWeight: 600, lineHeight: 1.7 }}>
-                {t.contact.description}
-              </p>
-            </div>
+          <div>
+            <ContactForm form={form} setForm={setForm} />
           </div>
         </div>
 
