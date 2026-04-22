@@ -2,7 +2,10 @@
 
 🌐 **[portafolio-disenio.vercel.app](https://portafolio-disenio.vercel.app/)**
 
-Portafolio web personal desarrollado con React, TypeScript y Vite. Incluye modo oscuro/claro, soporte multilenguaje (ES, EN, PT, FR) y animaciones con Framer Motion.
+Portafolio web personal desarrollado con React, TypeScript y Vite. Incluye modo oscuro/claro, soporte multilenguaje (ES, EN, PT, FR) y animaciones con Framer Motion, permite descargar cv en formato PDF.
+
+Ejecutar modo celular en un celular, funciona perfectamente.
+
 
 ## Tecnologías
 
@@ -23,4 +26,4 @@ npm run dev
 
 ## Autor
 
-**Andrés David Criollo** — Pasto, Colombia
+**Andrés David Criollo** — Pasto, Nariño, Colombia
