@@ -937,12 +937,9 @@ function HeroSection() {
 
           <h1 className="mb-6">
             <div className="text-5xl md:text-7xl lg:text-8xl tracking-tighter" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 900, letterSpacing: '-0.04em' }}>
-              ANDRÉS
+              ANDRÉS DAVID
             </div>
             <div className="text-5xl md:text-7xl lg:text-8xl tracking-tighter text-blue-500" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 900, letterSpacing: '-0.04em' }}>
-              DAVID
-            </div>
-            <div className="text-5xl md:text-7xl lg:text-8xl tracking-tighter" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 900, letterSpacing: '-0.04em' }}>
               CRIOLLO
             </div>
           </h1>
