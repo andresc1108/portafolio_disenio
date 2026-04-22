@@ -56,6 +56,7 @@ const translations = {
       about: 'SOBRE MÍ',
       services: 'SERVICIOS',
       projects: 'PROYECTOS',
+      testimonials: 'TESTIMONIOS',
       contact: 'CONTACTO'
     },
     hero: {
@@ -218,6 +219,7 @@ const translations = {
       about: 'ABOUT ME',
       services: 'SERVICES',
       projects: 'PROJECTS',
+      testimonials: 'TESTIMONIALS',
       contact: 'CONTACT'
     },
     hero: {
@@ -380,6 +382,7 @@ const translations = {
       about: 'SOBRE MIM',
       services: 'SERVIÇOS',
       projects: 'PROJETOS',
+      testimonials: 'DEPOIMENTOS',
       contact: 'CONTATO'
     },
     hero: {
@@ -542,6 +545,7 @@ const translations = {
       about: 'À PROPOS',
       services: 'SERVICES',
       projects: 'PROJETS',
+      testimonials: 'TÉMOIGNAGES',
       contact: 'CONTACT'
     },
     hero: {
@@ -769,6 +773,7 @@ function Navigation({ mobileMenuOpen, setMobileMenuOpen, showLangMenu, setShowLa
             { label: t.nav.about, href: '#about' },
             { label: t.nav.services, href: '#services' },
             { label: t.nav.projects, href: '#projects' },
+            { label: t.nav.testimonials, href: '#testimonials' },
             { label: t.nav.contact, href: '#contact' }
           ].map(item => (
             <motion.a
@@ -861,6 +866,7 @@ function Navigation({ mobileMenuOpen, setMobileMenuOpen, showLangMenu, setShowLa
                 { label: t.nav.about, href: '#about' },
                 { label: t.nav.services, href: '#services' },
                 { label: t.nav.projects, href: '#projects' },
+                { label: t.nav.testimonials, href: '#testimonials' },
                 { label: t.nav.contact, href: '#contact' }
               ].map(item => (
                 <a
@@ -887,15 +893,40 @@ function HeroSection() {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
 
+  const handleDownloadCV = (e: React.MouseEvent) => {
+    e.preventDefault();
+    (async () => {
+      try {
+        const res = await fetch(cvFile as unknown as string);
+        if (!res.ok) throw new Error('PDF not available');
+        const blob = await res.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Andres_CV.pdf';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+      } catch (err) {
+        try {
+          window.open(cvFile as unknown as string, '_blank');
+        } catch (e) {
+          alert('No se pudo descargar el CV. Por favor reemplaza src/assets/cv andres criollo.pdf con tu archivo PDF.');
+        }
+      }
+    })();
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
-      <div className="max-w-7xl w-full">
+      <div className="max-w-3xl w-full text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex items-center gap-2 mb-8">
+          <div className="flex items-center justify-center gap-2 mb-8">
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ repeat: Infinity, duration: 2 }}
@@ -916,16 +947,16 @@ function HeroSection() {
             </div>
           </h1>
 
-          <p className={`text-lg md:text-xl mb-4 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`} style={{ fontWeight: 600 }}>
+          <p className={`text-lg md:text-xl mb-4 text-center ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`} style={{ fontWeight: 600 }}>
             {t.hero.subtitle} <span className={theme === 'dark' ? 'text-gray-500' : 'text-gray-400'}>{t.hero.description}</span>
           </p>
 
-          <div className="flex items-center gap-2 mb-8">
+          <div className="flex items-center justify-center gap-2 mb-8">
             <MapPin size={16} className={theme === 'dark' ? 'text-gray-600' : 'text-gray-400'} />
             <span className={`text-xs ${theme === 'dark' ? 'text-gray-600' : 'text-gray-500'} tracking-wider`} style={{ fontWeight: 700 }}>{t.hero.location}</span>
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <motion.a
               href="#contact"
               whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(59, 130, 246, 0.6)' }}
@@ -946,6 +977,16 @@ function HeroSection() {
             >
               {t.hero.projects}
             </motion.a>
+
+            <motion.button
+              onClick={handleDownloadCV}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className={`w-full md:w-auto px-8 py-3 ${theme === 'dark' ? 'border border-blue-500 hover:bg-blue-500/10' : 'border border-blue-500 hover:bg-blue-500/10'} rounded-lg transition-colors flex items-center justify-center gap-2 text-blue-500`}
+              style={{ fontWeight: 700 }}
+            >
+              {language === 'es' ? 'Descargar CV' : language === 'en' ? 'Download CV' : language === 'pt' ? 'Baixar CV' : 'Télécharger CV'}
+            </motion.button>
           </div>
         </motion.div>
       </div>
@@ -1417,7 +1458,7 @@ function TestimonialsSection() {
   const t = translations[language];
 
   return (
-    <section className="py-20 px-6">
+    <section id="testimonials" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0 }}
