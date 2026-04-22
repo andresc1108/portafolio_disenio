@@ -226,7 +226,7 @@ const translations = {
       available: 'AVAILABLE FOR OPPORTUNITIES',
       subtitle: 'Software Engineering Student',
       description: 'at Universidad Cooperativa de Colombia. Passionate about building digital experiences with technologies and creativity.',
-      location: 'PASTO, COLOMBIA',
+      location: 'PASTO, NARIÑO, COLOMBIA',
       contact: 'CONTACT',
       projects: 'VIEW PROJECTS'
     },
@@ -389,7 +389,7 @@ const translations = {
       available: 'DISPONÍVEL PARA OPORTUNIDADES',
       subtitle: 'Estudante de Engenharia de Software',
       description: 'na Universidad Cooperativa de Colombia. Apaixonado por construir experiências digitais com tecnologias e criatividade.',
-      location: 'PASTO, COLÔMBIA',
+      location: 'PASTO, NARIÑO, COLÔMBIA',
       contact: 'CONTATAR',
       projects: 'VER PROJETOS'
     },
@@ -552,7 +552,7 @@ const translations = {
       available: 'DISPONIBLE POUR DES OPPORTUNITÉS',
       subtitle: 'Étudiant en Génie Logiciel',
       description: 'à l\'Universidad Cooperativa de Colombia. Passionné par la création d\'expériences numériques avec technologies et créativité.',
-      location: 'PASTO, COLOMBIE',
+      location: 'PASTO, NARIÑO, COLOMBIE',
       contact: 'CONTACTER',
       projects: 'VOIR PROJETS'
     },
