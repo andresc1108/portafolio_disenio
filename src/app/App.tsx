@@ -63,7 +63,7 @@ const translations = {
       available: 'DISPONIBLE PARA OPORTUNIDADES',
       subtitle: 'Estudiante de Ingeniería de Software',
       description: 'en la Universidad Cooperativa de Colombia. Apasionado por construir experiencias digitales con tecnologías y creatividad.',
-      location: 'PASTO, COLOMBIA',
+      location: 'PASTO, NARIÑO, COLOMBIA',
       contact: 'CONTACTAR',
       projects: 'VER PROYECTOS'
     },
@@ -80,27 +80,27 @@ const translations = {
       list: [
         {
           title: 'Desarrollo Web Frontend',
-          tags: ['HTML', 'CSS', 'REACT']
+          tags: ['REACT', 'NEXT.JS','TAILWIND', 'TYPESCRIPT','FRAMER MOTION']
         },
         {
           title: 'Desarrollo Backend & APIs',
-          tags: ['Node.js', 'Python', 'MongoDB']
+          tags: ['EXPRESS', 'FASTAPI','REST API','MongoDB','IA']
         },
         {
           title: 'Diseño UI/UX',
-          tags: ['FIGMA']
+          tags: ['FIGMA', 'DESIGN SYSTEMS', 'WIREFRAMING', 'PROTOTIPADO', 'FRAMER']
         },
         {
           title: 'Desarrollo de Aplicaciones Web',
-          tags: ['REACT', 'NODE.JS']
+          tags: ['REACT', 'NODE.JS','VITE','DOCKER','CI/CD']
         },
         {
           title: 'Soporte Técnico & Sistemas',
-          tags: ['HARDWARE', 'SOFTWARE']
+          tags: ['BASH','LINUX','REDES', 'CIBERSEGURIDAD','VIRTUALIZACIÓN']
         },
         {
           title: 'Consultoría de Software',
-          tags: ['ANÁLISIS', 'SOLUCIONES']
+          tags: ['SCRUM','AGILE', 'GIT FLOW', 'DOCUMENTACIÓN', 'CLEAN CODE']
         }
       ]
     },
@@ -211,7 +211,7 @@ const translations = {
       linkedin: 'LINKEDIN',
       phone: 'TELÉFONO',
       github: 'GITHUB',
-      footer: '© 2026 — Pasto, Colombia'
+      footer: '© 2026 — Pasto, Nariño, Colombia'
     }
   },
   en: {
@@ -243,27 +243,27 @@ const translations = {
       list: [
         {
           title: 'Frontend Web Development',
-          tags: ['HTML', 'CSS', 'REACT']
+          tags: ['REACT', 'NEXT.JS', 'TAILWIND', 'TYPESCRIPT', 'FRAMER MOTION']
         },
         {
           title: 'Backend Development & APIs',
-          tags: ['Node.js', 'Python', 'MongoDB']
+          tags: ['EXPRESS', 'FASTAPI', 'REST API', 'MongoDB', 'IA']
         },
         {
           title: 'UI/UX Design',
-          tags: ['FIGMA']
+          tags: ['FIGMA', 'DESIGN SYSTEMS', 'WIREFRAMING', 'PROTOTYPING', 'FRAMER']
         },
         {
           title: 'Web Application Development',
-          tags: ['REACT', 'NODE.JS']
+          tags: ['REACT', 'NODE.JS', 'VITE', 'DOCKER', 'CI/CD']
         },
         {
           title: 'Technical Support & Systems',
-          tags: ['HARDWARE', 'SOFTWARE']
+          tags: ['BASH', 'LINUX', 'NETWORKS', 'CYBERSECURITY', 'VIRTUALIZATION']
         },
         {
           title: 'Software Consulting',
-          tags: ['ANALYSIS', 'SOLUTIONS']
+          tags: ['SCRUM', 'AGILE', 'GIT FLOW', 'DOCUMENTATION', 'CLEAN CODE']
         }
       ]
     },
@@ -374,7 +374,7 @@ const translations = {
       linkedin: 'LINKEDIN',
       phone: 'PHONE',
       github: 'GITHUB',
-      footer: '© 2026 — Pasto, Colombia'
+      footer: '© 2026 — Pasto, Nariño, Colombia'
     }
   },
   pt: {
@@ -406,27 +406,27 @@ const translations = {
       list: [
         {
           title: 'Desenvolvimento Web Frontend',
-          tags: ['HTML', 'CSS', 'REACT']
+          tags: ['REACT', 'NEXT.JS', 'TAILWIND', 'TYPESCRIPT', 'FRAMER MOTION']
         },
         {
           title: 'Desenvolvimento Backend & APIs',
-          tags: ['Node.js', 'Python', 'MongoDB']
+          tags: ['EXPRESS', 'FASTAPI', 'REST API', 'MongoDB', 'IA']
         },
         {
           title: 'Design UI/UX',
-          tags: ['FIGMA']
+          tags: ['FIGMA', 'DESIGN SYSTEMS', 'WIREFRAMING', 'PROTOTIPAGEM', 'FRAMER']
         },
         {
           title: 'Desenvolvimento de Aplicações Web',
-          tags: ['REACT', 'NODE.JS']
+          tags: ['REACT', 'NODE.JS', 'VITE', 'DOCKER', 'CI/CD']
         },
         {
           title: 'Suporte Técnico & Sistemas',
-          tags: ['HARDWARE', 'SOFTWARE']
+          tags: ['BASH', 'LINUX', 'REDES', 'CIBERSEGURANÇA', 'VIRTUALIZAÇÃO']
         },
         {
           title: 'Consultoria de Software',
-          tags: ['ANÁLISE', 'SOLUÇÕES']
+          tags: ['SCRUM', 'AGILE', 'GIT FLOW', 'DOCUMENTAÇÃO', 'CLEAN CODE']
         }
       ]
     },
@@ -537,7 +537,7 @@ const translations = {
       linkedin: 'LINKEDIN',
       phone: 'TELEFONE',
       github: 'GITHUB',
-      footer: '© 2026 — Pasto, Colômbia'
+      footer: '© 2026 — Pasto, Nariño, Colômbia'
     }
   },
   fr: {
@@ -569,27 +569,27 @@ const translations = {
       list: [
         {
           title: 'Développement Web Frontend',
-          tags: ['HTML', 'CSS', 'REACT']
+          tags: ['REACT', 'NEXT.JS', 'TAILWIND', 'TYPESCRIPT', 'FRAMER MOTION']
         },
         {
           title: 'Développement Backend & APIs',
-          tags: ['Node.js', 'Python', 'MongoDB']
+          tags: ['EXPRESS', 'FASTAPI', 'REST API', 'MongoDB', 'IA']
         },
         {
           title: 'Design UI/UX',
-          tags: ['FIGMA']
+          tags: ['FIGMA', 'DESIGN SYSTEMS', 'WIREFRAMING', 'PROTOTYPAGE', 'FRAMER']
         },
         {
           title: 'Développement d\'Applications Web',
-          tags: ['REACT', 'NODE.JS']
+          tags: ['REACT', 'NODE.JS', 'VITE', 'DOCKER', 'CI/CD']
         },
         {
           title: 'Support Technique & Systèmes',
-          tags: ['HARDWARE', 'SOFTWARE']
+          tags: ['BASH', 'LINUX', 'RÉSEAUX', 'CYBERSÉCURITÉ', 'VIRTUALISATION']
         },
         {
           title: 'Consulting en Logiciel',
-          tags: ['ANALYSE', 'SOLUTIONS']
+          tags: ['SCRUM', 'AGILE', 'GIT FLOW', 'DOCUMENTATION', 'CLEAN CODE']
         }
       ]
     },
@@ -700,7 +700,7 @@ const translations = {
       linkedin: 'LINKEDIN',
       phone: 'TÉLÉPHONE',
       github: 'GITHUB',
-      footer: '© 2026 — Pasto, Colombie'
+      footer: '© 2026 — Pasto, Nariño, Colombie'
     }
   }
 };
