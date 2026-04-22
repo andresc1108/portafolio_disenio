@@ -1020,7 +1020,10 @@ function AboutSection() {
             viewport={{ once: true }}
             className="relative group"
           >
-            <div className={`aspect-square ${theme === 'dark' ? 'bg-gradient-to-br from-red-900 via-gray-900 to-black' : 'bg-gradient-to-br from-red-300 via-gray-300 to-gray-100'} rounded-2xl overflow-hidden border-2 ${theme === 'dark' ? 'border-gray-800' : 'border-gray-200'} group-hover:border-blue-500 transition-all duration-300`}>
+            <div
+              className={`aspect-square ${theme === 'dark' ? 'bg-gradient-to-br from-red-900 via-gray-900 to-black' : 'bg-gradient-to-br from-red-300 via-gray-300 to-gray-100'} rounded-2xl overflow-hidden border-2 ${theme === 'dark' ? 'border-gray-800' : 'border-gray-200'} group-hover:border-blue-500 transition-all duration-300`}
+              style={{ boxShadow: theme === 'dark' ? '0 0 30px 8px rgba(255, 255, 255, 0.18)' : '0 0 30px 8px rgba(0, 0, 0, 0.18)' }}
+>
               {/* AQUÍ PUEDES CAMBIAR TU IMAGEN DE PERFIL */}
               {/* Reemplaza el div de abajo con: <img src="URL_DE_TU_IMAGEN" alt="Andrés David Criollo" className="w-full h-full object-cover" /> */}
               <img 
